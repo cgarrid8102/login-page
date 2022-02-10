@@ -1,0 +1,137 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+
+} 
+
+.login{
+
+    height: 80vh;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: inline-flex;
+    border-radius: 20px;
+    box-shadow: 1px 1px 28px 8px rgba(0, 0, 0, 0.75);
+-webkit-box-shadow: 1px 1px 28px 8px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: 1px 1px 28px 8px rgba(0, 0, 0, 0.75);
+
+}
+
+.pic{
+   height: 100%;
+   width: 50%;
+
+}
+
+.pic img{
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+h3,p{
+    font-family: 'Inter', sans-serif;
+} 
+
+h1{
+    font-family: 'Pacifico', cursive;
+    color: rgb(255, 205, 0);
+}
+
+.form{
+    height: 100%;
+    width: 50%;
+    padding: 30px;
+
+}
+
+.input-field{
+    height: 40px;
+    width: 80%;
+    border: 1px solid rgb(202, 198, 200);
+    outline: none; 
+    padding: 5px 40px;
+    margin-top: 10px;
+    font-size: medium;
+    border-radius: 20px;
+
+
+}
+
+.icon{
+    position: absolute;
+    padding: 20px;
+    color: rgb(165, 157, 157);
+}
+
+.p1{
+    padding: 20px 0;
+    color: rgb(165, 157, 157);
+    font-weight: bold;
+
+}
+
+button{
+    height: 40px;
+    width: 80%;
+    border: none;
+    outline: none;
+    margin: 20px 0;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background: rgb(83, 93, 231);
+    transition: all 0.4s;
+
+}
+
+button:hover{
+    background: rgb(189, 69, 89);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(187, 15, 67);
+    font-weight: 800;
+}
+
+.links{
+    display: inline-flex;
+
+}
+
+.circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: white;
+    margin: 30px 10px;
+    cursor: pointer;
+    padding: 12px;
+    box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.75);
+
+}
+
+.fa-facebook-f{
+    color: blue;
+
+}
+.fa-google{
+    color: navy;
+}
+.fa-instagram{
+    color: red;
+}
+.fa-twitter{
+    color: dodgerblue;
+}
